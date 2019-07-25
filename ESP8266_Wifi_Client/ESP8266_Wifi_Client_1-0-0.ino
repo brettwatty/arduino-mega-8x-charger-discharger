@@ -20,8 +20,8 @@
 const char ssid[] = "";                        // SSID
 const char password[] = "";                    // Password
 const char server[] = "submit.vortexit.co.nz"; // Server to connect to send and recieve data
-const char userHash[] = "c4ca4238";            // Database Hash - this is unique per user - Get this from Charger / Discharger Menu -> View
-const byte CDUnitID = 37;                      // CDUnitID this is the Units ID - this is unique per user - Get this from Charger / Discharger Menu -> View -> Select your Charger / Discharger
+const char userHash[] = "";            // Database Hash - this is unique per user - Get this from Charger / Discharger Menu -> View
+const byte CDUnitID = 0;                      // CDUnitID this is the Units ID - this is unique per user - Get this from Charger / Discharger Menu -> View -> Select your Charger / Discharger
 
 // readPage Variables
 char serverResult[32];  // String for incoming serial data
